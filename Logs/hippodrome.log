@@ -1,0 +1,28 @@
+2025-02-10 07:30:00.544 INFO [Main.main(Main.java:30):] The winner is Pegasus!
+2025-02-10 07:31:05.349 INFO [Main.main(Main.java:20):] Start of the race. Number of participants: 7
+2025-02-10 07:31:06.408 INFO [Main.main(Main.java:30):] The winner is Shelby!
+2025-02-10 07:34:19.211 ERROR [Hippodrome.<init>(Hippodrome.java:15):] Horses cannot be null.
+2025-02-10 07:36:40.465 ERROR [Hippodrome.<init>(Hippodrome.java:15):] Horses cannot be null.
+2025-02-10 07:39:43.008 ERROR [Hippodrome.<init>(Hippodrome.java:15):] Horses cannot be null.
+2025-02-10 07:41:07.020 ERROR [Hippodrome.<init>(Hippodrome.java:15):] Horses cannot be null.
+2025-02-10 07:42:15.315 ERROR [Hippodrome.<init>(Hippodrome.java:15):] Horses cannot be null.
+2025-02-10 07:47:12.771 ERROR [Hippodrome.<init>(Hippodrome.java:15):] Horses cannot be null.
+2025-02-10 07:53:08.561 DEBUG [Hippodrome.<init>(Hippodrome.java:23):] Created a Hippodrome with: 3 horses.
+2025-02-10 07:53:10.704 DEBUG [Hippodrome.<init>(Hippodrome.java:23):] Created a Hippodrome with: 30 horses.
+2025-02-10 07:53:10.718 ERROR [Hippodrome.<init>(Hippodrome.java:15):] Horses cannot be null.
+2025-02-10 07:53:10.749 ERROR [Hippodrome.<init>(Hippodrome.java:18):] Horses cannot be empty.
+2025-02-10 07:54:39.170 ERROR [Hippodrome.<init>(Hippodrome.java:15):] Horses cannot be null.
+2025-02-10 07:59:15.205 ERROR [Hippodrome.<init>(Hippodrome.java:15):] Horses cannot be null.
+2025-02-10 08:00:48.707 DEBUG [Hippodrome.<init>(Hippodrome.java:23):] Created a Hippodrome with: 3 horses.
+2025-02-10 08:01:23.269 DEBUG [Hippodrome.<init>(Hippodrome.java:23):] Created a Hippodrome with: 30 horses.
+2025-02-10 08:01:23.317 ERROR [Hippodrome.<init>(Hippodrome.java:15):] Horses cannot be null.
+2025-02-10 08:01:23.339 ERROR [Hippodrome.<init>(Hippodrome.java:18):] Horses cannot be empty.
+2025-02-10 08:01:24.874 ERROR [Horse.<init>(Horse.java:17):] Name cannot be blank.
+2025-02-10 08:01:24.939 ERROR [Horse.<init>(Horse.java:17):] Name cannot be blank.
+2025-02-10 08:01:24.983 ERROR [Horse.<init>(Horse.java:17):] Name cannot be blank.
+2025-02-10 08:01:25.002 ERROR [Horse.<init>(Horse.java:17):] Name cannot be blank.
+2025-02-10 08:01:25.015 ERROR [Horse.<init>(Horse.java:21):] Speed cannot be negative.
+2025-02-10 08:01:25.022 ERROR [Horse.<init>(Horse.java:14):] Name cannot be null.
+2025-02-10 08:01:25.062 ERROR [Horse.<init>(Horse.java:25):] Distance cannot be negative.
+2025-02-10 08:03:15.973 ERROR [Hippodrome.<init>(Hippodrome.java:15):] Horses cannot be null.
+2025-02-10 08:03:23.994 ERROR [Hippodrome.<init>(Hippodrome.java:15):] Horses cannot be null.

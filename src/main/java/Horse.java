@@ -1,50 +1,57 @@
 import static java.util.Objects.isNull;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 public class Horse {
+  private static final Logger logger = LoggerFactory.getLogger(Horse.class);
+  private final String name;
+  private final double speed;
+  private double distance;
 
-    private final String name;
-    private final double speed;
-    private double distance;
-
-    public Horse(String name, double speed, double distance) {
-        if (isNull(name)) {
-            throw new IllegalArgumentException("Name cannot be null.");
-        } else if (name.isBlank()) {
-            throw new IllegalArgumentException("Name cannot be blank.");
-        }
-        if (speed < 0) {
-            throw new IllegalArgumentException("Speed cannot be negative.");
-        }
-        if (distance < 0) {
-            throw new IllegalArgumentException("Distance cannot be negative.");
-        }
-
-        this.name = name;
-        this.speed = speed;
-        this.distance = distance;
+  public Horse(String name, double speed, double distance) {
+    if (isNull(name)) {
+      logger.error("Name cannot be null.");
+      throw new IllegalArgumentException("Name cannot be null.");
+    } else if (name.isBlank()) {
+      logger.error("Name cannot be blank.");
+      throw new IllegalArgumentException("Name cannot be blank.");
+    }
+    if (speed < 0) {
+      logger.error("Speed cannot be negative.");
+      throw new IllegalArgumentException("Speed cannot be negative.");
+    }
+    if (distance < 0) {
+      logger.error("Distance cannot be negative.");
+      throw new IllegalArgumentException("Distance cannot be negative.");
     }
 
-    public Horse(String name, double speed) {
-        this(name, speed, 0);
-    }
+    this.name = name;
+    this.speed = speed;
+    this.distance = distance;
+  }
 
-    public String getName() {
-        return name;
-    }
+  public Horse(String name, double speed) {
+    this(name, speed, 0);
+  }
 
-    public double getSpeed() {
-        return speed;
-    }
+  public String getName() {
+    return name;
+  }
 
-    public double getDistance() {
-        return distance;
-    }
+  public double getSpeed() {
+    return speed;
+  }
 
-    public void move() {
-        distance += speed * getRandomDouble(0.2, 0.9);
-    }
+  public double getDistance() {
+    return distance;
+  }
 
-    public static double getRandomDouble(double min, double max) {
-        return (Math.random() * (max - min)) + min;
-    }
+  public void move() {
+    distance += speed * getRandomDouble(0.2, 0.9);
+  }
+
+  public static double getRandomDouble(double min, double max) {
+    return (Math.random() * (max - min)) + min;
+  }
 }
